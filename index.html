@@ -716,20 +716,19 @@
 <!-- ========== КОНЕЦ СТАРОГО БЛОКА С ОТЗЫВАМИ ========== -->
     
 <!-- НОВЫЙ БЛОК "ЭКСПЕРТИЗА И ОТВЕТЫ" - ВИДИМ -->
-    <!-- Expertise & FAQ area start -->
+   <!-- Expertise & FAQ area start -->
 <div class="testimonial_area overlay">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="section_title text-center mb-50">
-                    <!-- ИЗМЕНИТЬ ЗДЕСЬ: заголовок раздела -->
                     <h3>Экспертиза и ответы</h3>
                     <p>Узнайте, почему со мной работают и как строится сотрудничество</p>
                 </div>
             </div>
         </div>
 
-        <!-- Контейнер для вкладок (табов) -->
+        <!-- Контейнер для вкладок (табов) - ТОЧНО КАК В РАЗДЕЛЕ С УСЛУГАМИ -->
         <div class="tablist_menu">
             <div class="row">
                 <div class="col-xl-12">
@@ -765,7 +764,7 @@
 
         <!-- Содержимое вкладок -->
         <div class="tab-content mt-50" id="expertise-tabContent">
-            <!-- ВКЛАДКА 1: Преимущества -->
+            <!-- ВКЛАДКА 1: Преимущества (оставляем как было) -->
             <div class="tab-pane fade show active" id="pills-advantages" role="tabpanel" aria-labelledby="pills-advantages-tab">
                 <div class="row justify-content-center">
                     <!-- Карточка преимущества 1 -->
@@ -819,41 +818,93 @@
                 </div>
             </div>
 
-            <!-- ВКЛАДКА 2: Частые вопросы (FAQ) -->
+            <!-- ВКЛАДКА 2: Частые вопросы (FAQ) В СТИЛЕ ОТЗЫВОВ -->
             <div class="tab-pane fade" id="pills-faq" role="tabpanel" aria-labelledby="pills-faq-tab">
                 <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <!-- Вопрос 1 -->
-                        <div class="single_faq mb-4">
-                            <h5 class="mb-3">
-                                <i class="ti-angle-right mr-2"></i>
-                                Сколько времени нужно на проект?
-                            </h5>
-                            <p class="pl-4">От 3 дней до 2 недель, в зависимости от сложности и объема. Например, дизайн КП может занять 3-5 дней, а многостраничная презентация — 7-14 дней.</p>
-                        </div>
-                        <!-- Вопрос 2 -->
-                        <div class="single_faq mb-4">
-                            <h5 class="mb-3">
-                                <i class="ti-angle-right mr-2"></i>
-                                Нужно ли мне что-то готовить перед началом работы?
-                            </h5>
-                            <p class="pl-4">Достаточно текстов, логотипа и пожеланий по стилю. Если текстов нет — помогу их структурировать и написать. В любом случае, мы все обсудим на стартовой консультации.</p>
-                        </div>
-                        <!-- Вопрос 3 -->
-                        <div class="single_faq mb-4">
-                            <h5 class="mb-3">
-                                <i class="ti-angle-right mr-2"></i>
-                                Работаете ли вы с нейросетями? Это безопасно?
-                            </h5>
-                            <p class="pl-4">Да, активно работаю. Нейросети — это инструмент, который я использую для генерации идей и уникальных визуальных элементов. Все решения проходят мой профессиональный фильтр и доработку. Конфиденциальность ваших данных гарантируется.</p>
-                        </div>
-                        <!-- Вопрос 4 -->
-                        <div class="single_faq mb-4">
-                            <h5 class="mb-3">
-                                <i class="ti-angle-right mr-2"></i>
-                                Как происходит оплата и согласование?
-                            </h5>
-                            <p class="pl-4">Стандартная схема: 50% предоплата для начала работы и 50% после утверждения готового макета. На каждом этапе вы видите промежуточный результат и можете вносить правки.</p>
+                    <div class="col-xl-10">
+                        <!-- FAQ слайдер (карусель) как в старых отзывах -->
+                        <div class="testmonial_active owl-carousel">
+                            <!-- Вопрос 1 -->
+                            <div class="single_carousel">
+                                <div class="single_testmonial">
+                                    <div class="testmonial_author">
+                                        <div class="thumb">
+                                            <!-- Аватар для вопроса (можно использовать одну картинку) -->
+                                            <img src="img/testimonial/author.png" alt="Вопрос клиента">
+                                        </div>
+                                        <div class="name">
+                                            <h3>Вопрос клиента</h3>
+                                            <div class="icon">
+                                                <i class="fa fa-question-circle"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author_opinion">
+                                        <p><strong>Сколько времени нужно на проект?</strong></p>
+                                        <p>От 3 дней до 2 недель, в зависимости от сложности и объема. Например, дизайн КП может занять 3-5 дней, а многостраничная презентация — 7-14 дней.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Вопрос 2 -->
+                            <div class="single_carousel">
+                                <div class="single_testmonial">
+                                    <div class="testmonial_author">
+                                        <div class="thumb">
+                                            <img src="img/testimonial/author.png" alt="Вопрос клиента">
+                                        </div>
+                                        <div class="name">
+                                            <h3>Вопрос клиента</h3>
+                                            <div class="icon">
+                                                <i class="fa fa-question-circle"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author_opinion">
+                                        <p><strong>Нужно ли мне что-то готовить перед началом работы?</strong></p>
+                                        <p>Достаточно текстов, логотипа и пожеланий по стилю. Если текстов нет — помогу их структурировать и написать. В любом случае, мы все обсудим на стартовой консультации.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Вопрос 3 -->
+                            <div class="single_carousel">
+                                <div class="single_testmonial">
+                                    <div class="testmonial_author">
+                                        <div class="thumb">
+                                            <img src="img/testimonial/author.png" alt="Вопрос клиента">
+                                        </div>
+                                        <div class="name">
+                                            <h3>Вопрос клиента</h3>
+                                            <div class="icon">
+                                                <i class="fa fa-question-circle"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author_opinion">
+                                        <p><strong>Работаете ли вы с нейросетями? Это безопасно?</strong></p>
+                                        <p>Да, активно работаю. Нейросети — это инструмент, который я использую для генерации идей и уникальных визуальных элементов. Все решения проходят мой профессиональный фильтр и доработку. Конфиденциальность ваших данных гарантируется.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Вопрос 4 -->
+                            <div class="single_carousel">
+                                <div class="single_testmonial">
+                                    <div class="testmonial_author">
+                                        <div class="thumb">
+                                            <img src="img/testimonial/author.png" alt="Вопрос клиента">
+                                        </div>
+                                        <div class="name">
+                                            <h3>Вопрос клиента</h3>
+                                            <div class="icon">
+                                                <i class="fa fa-question-circle"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="author_opinion">
+                                        <p><strong>Как происходит оплата и согласование?</strong></p>
+                                        <p>Стандартная схема: 50% предоплата для начала работы и 50% после утверждения готового макета. На каждом этапе вы видите промежуточный результат и можете вносить правки.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
