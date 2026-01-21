@@ -571,7 +571,7 @@
 <!-- ========== КОНЕЦ СТАРОГО БЛОКА ========== -->
 
 <!-- ========== СТАРЫЙ БЛОК С ОТЗЫВАМИ (СКРЫТ) ========== -->
-<!--    
+<!--
     <!-- testimonial_area  -->
     <div class="testimonial_area overlay ">
         <div class="container">
@@ -713,8 +713,156 @@
     </div>
     <!-- /testimonial_area  -->
 -->
-<!-- ========== КОНЕЦ СТАРОГО БЛОКА ========== -->
+<!-- ========== КОНЕЦ СТАРОГО БЛОКА С ОТЗЫВАМИ ========== -->
     
+<!-- НОВЫЙ БЛОК "ЭКСПЕРТИЗА И ОТВЕТЫ" - ВИДИМ -->
+<div class="testimonial_area overlay"> 
+    <!-- Expertise & FAQ area start -->
+<div class="testimonial_area overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-50">
+                    <!-- ИЗМЕНИТЬ ЗДЕСЬ: заголовок раздела -->
+                    <h3>Экспертиза и ответы</h3>
+                    <p>Узнайте, почему со мной работают и как строится сотрудничество</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Контейнер для вкладок (табов) -->
+        <div class="tablist_menu">
+            <div class="row">
+                <div class="col-xl-12">
+                    <ul class="nav justify-content-center" id="expertise-tab" role="tablist">
+                        <!-- ВКЛАДКА 1: Преимущества -->
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-advantages-tab" data-toggle="pill" href="#pills-advantages" role="tab" aria-controls="pills-advantages" aria-selected="true">
+                                <div class="single_menu text-center">
+                                    <div class="icon">
+                                        <!-- Иконка "звезда" для преимуществ -->
+                                        <i class="flaticon-star"></i>
+                                    </div>
+                                    <h4>Мои преимущества</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- ВКЛАДКА 2: Вопросы -->
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-faq-tab" data-toggle="pill" href="#pills-faq" role="tab" aria-controls="pills-faq" aria-selected="false">
+                                <div class="single_menu text-center">
+                                    <div class="icon">
+                                        <!-- Иконка "вопрос" для FAQ -->
+                                        <i class="flaticon-question"></i>
+                                    </div>
+                                    <h4>Частые вопросы</h4>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Содержимое вкладок -->
+        <div class="tab-content mt-50" id="expertise-tabContent">
+            <!-- ВКЛАДКА 1: Преимущества -->
+            <div class="tab-pane fade show active" id="pills-advantages" role="tabpanel" aria-labelledby="pills-advantages-tab">
+                <div class="row justify-content-center">
+                    <!-- Карточка преимущества 1 -->
+                    <div class="col-lg-5 col-md-6 mb-30">
+                        <div class="single_advantage d-flex">
+                            <div class="icon mr-4">
+                                <i class="flaticon-brain text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Опыт в продажах + дизайн</h4>
+                                <p>16 лет в маркетинге и продажах. Я точно знаю, какой дизайн приводит клиента к сделке, а какой — останется просто "красивой картинкой".</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Карточка преимущества 2 -->
+                    <div class="col-lg-5 col-md-6 mb-30">
+                        <div class="single_advantage d-flex">
+                            <div class="icon mr-4">
+                                <i class="flaticon-deadline text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Гибкость и скорость</h4>
+                                <p>Работаю в сжатые сроки без потери качества. Как в кейсе Metron Astana — полный дизайн коммерческого предложения за 3 дня с тремя вариантами на выбор.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Карточка преимущества 3 -->
+                    <div class="col-lg-5 col-md-6 mb-30">
+                        <div class="single_advantage d-flex">
+                            <div class="icon mr-4">
+                                <i class="flaticon-key text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Работа "под ключ"</h4>
+                                <p>Беру проект от идеи и текстов до финального дизайна. Вы получаете готовое решение, а не набор разрозненных задач для самостоятельной сборки.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Карточка преимущества 4 -->
+                    <div class="col-lg-5 col-md-6 mb-30">
+                        <div class="single_advantage d-flex">
+                            <div class="icon mr-4">
+                                <i class="flaticon-ai text-primary" style="font-size: 2.5rem;"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Эксперт по нейросетям</h4>
+                                <p>Активно использую AI (Midjourney, ChatGPT) для генерации идей и уникальной графики. Это ускоряет процесс и дает решения, которые выделяют вас.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ВКЛАДКА 2: Частые вопросы (FAQ) -->
+            <div class="tab-pane fade" id="pills-faq" role="tabpanel" aria-labelledby="pills-faq-tab">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <!-- Вопрос 1 -->
+                        <div class="single_faq mb-4">
+                            <h5 class="mb-3">
+                                <i class="ti-angle-right mr-2"></i>
+                                Сколько времени нужно на проект?
+                            </h5>
+                            <p class="pl-4">От 3 дней до 2 недель, в зависимости от сложности и объема. Например, дизайн КП может занять 3-5 дней, а многостраничная презентация — 7-14 дней.</p>
+                        </div>
+                        <!-- Вопрос 2 -->
+                        <div class="single_faq mb-4">
+                            <h5 class="mb-3">
+                                <i class="ti-angle-right mr-2"></i>
+                                Нужно ли мне что-то готовить перед началом работы?
+                            </h5>
+                            <p class="pl-4">Достаточно текстов, логотипа и пожеланий по стилю. Если текстов нет — помогу их структурировать и написать. В любом случае, мы все обсудим на стартовой консультации.</p>
+                        </div>
+                        <!-- Вопрос 3 -->
+                        <div class="single_faq mb-4">
+                            <h5 class="mb-3">
+                                <i class="ti-angle-right mr-2"></i>
+                                Работаете ли вы с нейросетями? Это безопасно?
+                            </h5>
+                            <p class="pl-4">Да, активно работаю. Нейросети — это инструмент, который я использую для генерации идей и уникальных визуальных элементов. Все решения проходят мой профессиональный фильтр и доработку. Конфиденциальность ваших данных гарантируется.</p>
+                        </div>
+                        <!-- Вопрос 4 -->
+                        <div class="single_faq mb-4">
+                            <h5 class="mb-3">
+                                <i class="ti-angle-right mr-2"></i>
+                                Как происходит оплата и согласование?
+                            </h5>
+                            <p class="pl-4">Стандартная схема: 50% предоплата для начала работы и 50% после утверждения готового макета. На каждом этапе вы видите промежуточный результат и можете вносить правки.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Expertise & FAQ area end -->
     <!-- gallery_start -->
     <div class="gallery_area">
         <div class="container">
