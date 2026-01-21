@@ -6691,5 +6691,182 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+/* ========== СТИЛИ ДЛЯ РАЗДЕЛА "ЭКСПЕРТИЗА И ОТВЕТЫ" ========== */
 
+/* Общие стили для раздела */
+.Delicious_area {
+    padding: 100px 0;
+}
+
+/* Стили для FAQ блока (вопросы-ответы) */
+.single_faq {
+    margin-bottom: 40px;
+}
+
+.faq_author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.faq_author .thumb {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 3px solid rgba(255, 170, 23, 0.3);
+}
+
+.faq_author .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.faq_author .name {
+    flex: 1;
+}
+
+.faq_author .name h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.faq_author .name .icon i {
+    color: #ffaa17;
+    font-size: 20px;
+}
+
+/* Стили для "бабликов" с ответами */
+.author_opinion {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+    padding: 30px;
+    border-radius: 20px;
+    border-left: 5px solid #ffaa17;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author_opinion p {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.author_opinion p strong {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.author_opinion p:last-child {
+    margin-bottom: 0;
+}
+
+/* Стили для карточек преимуществ */
+.single_delicious {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.single_delicious:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.single_delicious .thumb {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+.single_delicious .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.single_delicious:hover .thumb img {
+    transform: scale(1.1);
+}
+
+.single_delicious .info {
+    flex: 1;
+}
+
+.single_delicious .info h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.single_delicious .info p {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.single_delicious .info span {
+    display: inline-block;
+    background: rgba(255, 170, 23, 0.2);
+    color: #ffaa17;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+    .single_delicious {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .single_delicious .thumb {
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .faq_author {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .faq_author .thumb {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .author_opinion {
+        padding: 20px;
+    }
+    
+    .author_opinion p strong {
+        font-size: 18px;
+    }
+}
 /*# sourceMappingURL=style.css.map */
