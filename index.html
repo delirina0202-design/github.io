@@ -185,55 +185,165 @@
     </div>
     <!-- about_area_end -->
 
-    <!-- Delicious area start  -->
-    <div class="Delicious_area">
-        <div class="container">
+   <!-- Services area start  -->
+<div class="Delicious_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-50">
+                    <!-- ИЗМЕНИТЬ ЗДЕСЬ: заголовок раздела -->
+                    <h3>Профессиональный подход</h3>
+                    <!-- Опционально: можно добавить подзаголовок -->
+                    <p>Я превращаю сложные задачи в убедительные визуальные решения</p>
+                </div>
+            </div>
+        </div>
+        <div class="tablist_menu">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="section_title text-center mb-50">
-                        <h3>Delicious Food For You</h3>
+                    <!-- ИЗМЕНИТЬ ЗДЕСЬ: названия и иконки вкладок -->
+                    <ul class="nav justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-wow-tab" data-toggle="pill" href="#pills-wow" role="tab" aria-controls="pills-wow" aria-selected="true">
+                                <div class="single_menu text-center">
+                                    <div class="icon">
+                                        <!-- Иконка "алмаз" для WOW-эффекта -->
+                                        <i class="flaticon-diamond"></i>
+                                    </div>
+                                    <h4>WOW-эффект</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-key-tab" data-toggle="pill" href="#pills-key" role="tab" aria-controls="pills-key" aria-selected="false">
+                                <div class="single_menu text-center">
+                                    <div class="icon">
+                                        <!-- Иконка "чеклист" для работы "под ключ" -->
+                                        <i class="flaticon-checklist"></i>
+                                    </div>
+                                    <h4>Работа "под ключ"</h4>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-fast-tab" data-toggle="pill" href="#pills-fast" role="tab" aria-controls="pills-fast" aria-selected="false">
+                                <div class="single_menu text-center">
+                                    <div class="icon">
+                                        <!-- Иконка "ракета" для быстрого старта -->
+                                        <i class="flaticon-rocket"></i>
+                                    </div>
+                                    <h4>Быстрый старт</h4>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ИЗМЕНИТЬ ЗДЕСЬ: контент внутри вкладок -->
+        <div class="tab-content" id="pills-tabContent">
+            <!-- ВКЛАДКА 1: WOW-эффект -->
+            <div class="tab-pane fade show active" id="pills-wow" role="tabpanel" aria-labelledby="pills-wow-tab">
+                <div class="row">
+                    <!-- Карточка 1.1 -->
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <div class="single_delicious d-flex align-items-center">
+                            <div class="thumb">
+                                <!-- Изображение для кейса (замените src) -->
+                                <img src="img/delicious/wow-1.jpg" alt="Кейс IRBIS">
+                            </div>
+                            <div class="info">
+                                <h3>IRBIS: Презентация как арт-объект</h3>
+                                <p>Превратила каталог продукции в стильную историю с помощью 3D-графики и нейросетей. 25 слайдов, которые цепляют взгляд.</p>
+                                <span>Результат: Клиент в восторге</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Карточка 1.2 -->
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <div class="single_delicious d-flex align-items-center">
+                            <div class="thumb">
+                                <!-- Изображение для кейса (замените src) -->
+                                <img src="img/delicious/wow-2.jpg" alt="Уникальный стиль">
+                            </div>
+                            <div class="info">
+                                <h3>Запоминающийся стиль</h3>
+                                <p>Создаю не просто слайды, а цельный визуальный мир для вашего бренда, который выделит вас среди конкурентов.</p>
+                                <span>Ценность: Узнаваемость</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="tablist_menu">
-                    <div class="row">
-                            <div class="col-xl-12">
-                                    <ul class="nav justify-content-center" id="pills-tab" role="tablist">
-                                            <li class="nav-item">
-                                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
-                                                  <div class="single_menu text-center">
-                                                      <div class="icon">
-                                                          <i class="flaticon-lunch"></i>
-                                                      </div>
-                                                        <h4>Dinner</h4>
-                                                  </div>
-                                              </a>
-                                            </li>
-                                            <li class="nav-item">
-                                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
-                                                    <div class="single_menu text-center">
-                                                            <div class="icon">
-                                                                <i class="flaticon-food"></i>
-                                                            </div>
-                                                            <h4>Breakfast</h4>
-                                                        </div>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
-                                                    <div class="single_menu text-center">
-                                                            <div class="icon">
-                                                                <i class="flaticon-kitchen"></i>
-                                                            </div>
-                                                            <h4>Lunch</h4>
-                                                        </div>
-                                                </a>
-                                            </li>
-                                    </ul>
+
+            <!-- ВКЛАДКА 2: Работа "под ключ" -->
+            <div class="tab-pane fade" id="pills-key" role="tabpanel" aria-labelledby="pills-key-tab">
+                <div class="row">
+                    <!-- Карточка 2.1 -->
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <div class="single_delicious d-flex align-items-center">
+                            <div class="thumb">
+                                <img src="img/delicious/key-1.jpg" alt="Кейс ТехноГаз">
+                            </div>
+                            <div class="info">
+                                <h3>ТехноГаз: Прайс-лист, который продает</h3>
+                                <p>Полный цикл: от структуры и текстов до финального дизайна. 12 слайдов, которые приняли без единой правки.</p>
+                                <span>Результат: Принято без правок</span>
                             </div>
                         </div>
+                    </div>
+                    <!-- Карточка 2.2 -->
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <div class="single_delicious d-flex align-items-center">
+                            <div class="thumb">
+                                <img src="img/delicious/key-2.jpg" alt="Кейс Metron Astana">
+                            </div>
+                            <div class="info">
+                                <h3>Metron Astana: Четкий КП за 3 дня</h3>
+                                <p>От брифа до готового коммерческого предложения в сжатые сроки. Предложила 3 варианта дизайна.</p>
+                                <span>Результат: Выбор клиента и 0 правок</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- ВКЛАДКА 3: Быстрый старт -->
+            <div class="tab-pane fade" id="pills-fast" role="tabpanel" aria-labelledby="pills-fast-tab">
+                <div class="row">
+                    <!-- Карточка 3.1 -->
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <div class="single_delicious d-flex align-items-center">
+                            <div class="thumb">
+                                <img src="img/delicious/fast-1.jpg" alt="Консультация">
+                            </div>
+                            <div class="info">
+                                <h3>Стратегическая консультация</h3>
+                                <p>Помогу определить верный формат, стиль и структуру для ваших материалов. Экономлю ваше время на поиск решения.</p>
+                                <span>Ценность: Ясный план</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Карточка 3.2 -->
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <div class="single_delicious d-flex align-items-center">
+                            <div class="thumb">
+                                <img src="img/delicious/fast-2.jpg" alt="Внедрение нейросетей">
+                            </div>
+                            <div class="info">
+                                <h3>Внедрение нейросетей в процессы</h3>
+                                <p>Покажу, как AI может ускорить генерацию идей и создание графики для ваших проектов, сохраняя качество.</p>
+                                <span>Ценность: Опережайте время</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ Services area end  -->
             <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                         <div class="row">
